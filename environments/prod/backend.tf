@@ -15,7 +15,6 @@
 
 terraform {
   backend "gcs" {
-    bucket = "catalog-load-test-tfstate"
     prefix = "env/prod"
   }
 }

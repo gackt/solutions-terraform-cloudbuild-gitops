@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "catalog-load-test-tfstate"
+#    bucket = "${var.project}-tfstate"
     prefix = "env/dev"
   }
 }
